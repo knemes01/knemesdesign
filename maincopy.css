@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  color: #888;
+  font-family:'Didact Gothic', sans-serif;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+}
+
+.photos2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* == Portrait Mobile ==*/
+
+@media screen and (max-width: 400px) {
+  head {
+  font-family:'Didact Gothic', sans-serif;
+  }
+  footer {
+  font-family:'Didact Gothic', sans-serif;
+  }
+  .logo {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding right: 10px;
+  float: none;
+  font-size: 35px;
+  text-align: right;
+  }
+  .logo .image {
+  position: relative;
+  max-width: 25%;
+  }
+  .logo h1 {
+  	color: #483c70;
+    font-family:'Didact Gothic', sans-serif;
+  }
+  .nav {
+  	display: block;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	width: 100%;
+  	height: 50%;
+  	padding-bottom: 30px;
+  }
+  .nav ul {
+  	background-color: #888
+  }
+  .nav ul li {
+ 	border: 1px solid #483c70;
+ 	padding: 5px;
+ 	list-style-type: none;
+  font-family:'Didact Gothic', sans-serif;
+ }
+  .nav ul li a {
+  	color: #483c70;
+  	list-style-type: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #888;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid #483c70;
+    font-family:'Didact Gothic', sans-serif;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 10px 10px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 100%
+  }
+  .grid h3 {
+    font-family:'Didact Gothic', sans-serif;
+  	border-bottom: 2px solid #483c70;
+  	font-size: 20px;
+  	padding-left: 40px;
+  	margin-bottom: 10px;
+  	width: 40%;
+  	text-align: right;
+  }
+  .grid .col-1-3 {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  padding: 15px;
+  font-size: 15px;
+  clear: right;
+  }
+  .grid .col-1-3 p {
+  font-family:'Didact Gothic', sans-serif;
+  }
+  .grid .col-1-3 a {
+   color: #483c70;
+  }
+  .grid h5 {
+    font-family:'Didact Gothic', sans-serif;
+  	border-bottom: 1px solid #483c70;
+  	font-size: 15px;
+  	padding-right: 60px;
+  	padding-top: 20px;
+  	margin-bottom: 10px;
+  	width: 40%;
+  	text-align: left;
+  	float: right;
+  }
+  .grid .col-2-3 .img {
+  	float:left;
+  	padding-bottom: 10px
+  }
+  .grid .col-2-3 .img2 {
+  	float: right;
+  	padding-bottom: 10px;
+  }
+  .grid .col-2-3 .img3 {
+    float: left;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    padding-bottom: 5px;
+  }
+  .grid .col-2-3 .img4 {
+    float: right;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    padding-bottom: 5px;
+  }
+  .grid .col-2-3 .img5 {
+    float: left;
+    padding-right: 2px;
+    padding-bottom: 4px;
+  }
+  .grid .col-2-3 .img6 {
+    float: left;
+    padding-bottom: 4px;
+  }
+  .grid .col-2-3 .img7 {
+    float: right;
+    padding-left: 2px;
+    padding-bottom: 4px;
+  }
+  .primary-footer {
+  	clear: both;
+  	background-color: #888;
+  	padding-bottom: 15px;
+  	padding-top: 15px;
+  }
+  .primary-footer small {
+  	color: #483c70;
+  	font-size: 15px;
+  	padding: 15px;
+  }
+}
+
+/* ===== Horizontal Mobile ===== */
+
+@media screen and (min-width: 400.1px) and (max-width: 600px) {
+  head {
+  font-family:'Didact Gothic', sans-serif;
+  }
+  footer {
+  font-family:'Didact Gothic', sans-serif;
+  }
+  .logo {
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding right: 10px;
+  font-size: 50px;
+  max-width: 50%;
+  text-align: right;
+  float: right;
+  }
+  .logo .image {
+  position: relative;
+  max-width: 45%;
+  float: right;
+  }
+  .logo h1 {
+    color: #483c70;
+    float: right;
+    font-family:'Didact Gothic', sans-serif;
+  }
+  .nav {
+    display: block;
+    font-family:'Didact Gothic', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 30px;
+  }
+  .nav ul {
+    background-color: #888
+  }
+  .nav ul li {
+  border: 1px solid #483c70;
+  padding: 5px;
+  list-style-type: none;
+ }
+  .nav ul li a {
+    color: #483c70;
+    list-style-type: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #888;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid #483c70;
+    border-top: 4px solid #483c70;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 10px 10px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 100%
+  }
+  .grid h3 {
+    border-bottom: 2px solid #483c70;
+    font-family:'Didact Gothic', sans-serif;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: right;
+  }
+  .grid .col-1-3 {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  padding: 15px;
+  font-size: 15px;
+  clear: right;
+  }
+  .grid .col-1-3 a {
+   color: #483c70;
+  }
+  .grid .col-1-3 p {
+  font-family:'Didact Gothic', sans-serif;
+  }
+  .grid h5 {
+    border-bottom: 1px solid #483c70;
+    font-family:'Didact Gothic', sans-serif;
+    font-size: 15px;
+    padding-right: 60px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: left;
+    float: right;
+  }
+  .grid .col-2-3 .img {
+    float:left;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding right: 100px;
+  }
+  .grid .col-2-3 .img2 {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+  }
+  .grid .col-2-3 .img3 {
+    float: left;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    padding-bottom: 5px;
+  }
+  .grid .col-2-3 .img4 {
+    float: left;
+    padding-right: 2.5px
+    padding-left: 2.5px;
+    padding-bottom: 5px;
+  }
+  .grid .col-2-3 .img5 {
+    float: left;
+    padding-right: 2px;
+    padding-left: 100px;
+    padding-bottom: 4px;
+  }
+  .grid .col-2-3 .img6 {
+    float: left;
+    padding-bottom: 4px;
+  }
+  .grid .col-2-3 .img7 {
+    float: left;
+    padding-left: 2px;
+    padding-bottom: 4px;
+  }
+  .grid .col-2-3 .video {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .primary-footer {
+    clear: both;
+    background-color: #888;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .primary-footer small {
+    color: #483c70;
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+/* ===== Screen ===== */
+
+@media screen and (min-width: 600.1px) {
+
+  header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+  }
+  .logo {
+    display: inline;
+    position: relative;
+    width: 100%;
+  }
+  .logo .image {
+   position: relative;
+   margin-top: 15px;
+   z-index: -1;
+   height: 80px;
+   max-width: 100%;
+   float: right;
+  }
+  .logo h1 {
+    position: relative;
+    z-index: 3;
+    color: #483c70;
+    font-size: 80px;
+    text-align: left;
+    font-family:'Didact Gothic', sans-serif;
+  }
+  .nav {
+    display: inline-block;
+    font-family:'Didact Gothic', sans-serif;
+    z-index: 2;
+    width: 100%;
+    padding: 0;
+    margin-top: -23px;
+    text-transform: uppercase;
+    border-top: 2px solid #483c70;
+  }
+  .nav span {
+    display: none;
+  }
+  .nav ul {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .nav ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+    font-family:'Didact Gothic', sans-serif;
+  }
+  .nav ul li a {
+    color: #483c70;
+    list-style-type: none;
+  }
+  .grid h3 {
+    border-bottom: 2px solid #483c70;
+    font-family:'Didact Gothic', sans-serif;
+    color: #483c70;
+    font-size: 30px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: right;
+  }
+  .grid .col-1-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  padding: 15px;
+  font-size: 15px;
+  }
+  .grid .col-1-3 a {
+   color: #483c70;
+  }
+  .grid .col-1-3 p {
+  position: relative;
+  font-family:'Didact Gothic', sans-serif;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  }
+  .grid h5 {
+  border-bottom: 1px solid #483c70;
+  font-family:'Didact Gothic', sans-serif;
+  font-size: 15px;
+  color: #483c70;
+  padding-right: 60px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  width: 40%;
+  text-align: left;
+  float: right;
+  }
+  .grid .col-2-3 {
+  display: inline-block;
+  float: right;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  padding: 15px;
+  font-size: 15px;
+  }
+  .primary-footer {
+    display: inline-block;
+    text-align: right;
+    clear: both;
+    width: 100%;
+    border-top: 2px solid #483c70;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .primary-footer small {
+    color: #483c70;
+    font-size: 15px;
+    padding: 15px;
+  }
+}
