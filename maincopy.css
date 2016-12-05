@@ -92,7 +92,7 @@ body {
     position: absolute;
     padding: 10px 10px;
   }
-  .dropdown:hover .dropdown:active .dropdown:focus .dropdown-content {
+  .dropdown:hover, .dropdown:active .dropdown-content {
     display: block;
     padding: 10px;
     text-align: center;
